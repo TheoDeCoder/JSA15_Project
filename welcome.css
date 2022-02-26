@@ -1,7 +1,8 @@
 .dich_vu {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images-ext-1.discordapp.net/external/-YH98258ybWeYiU0_K9x-ADmta3mVh-ZmWSxibIAXfs/https/www.apple.com/v/iphone/home/bd/images/overview/retail/why_apple__el2f318k348y_large.jpg?width=927&height=376);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://images-ext-1.discordapp.net/external/-YH98258ybWeYiU0_K9x-ADmta3mVh-ZmWSxibIAXfs/https/www.apple.com/v/iphone/home/bd/images/overview/retail/why_apple__el2f318k348y_large.jpg?width=927&height=376);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -29,29 +30,131 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5px;
+  padding: 10px 20px 20px 20px;
+  text-align: center;
 }
 
+/*<------------------------ Tablet ---------------------->*/
 
-/* .welcome-section {
+@media (max-width: 61.25em) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    font-size: 25px;
+    color: white;
+    margin-top: 20vh;
+  }
+
+  #dich_vu .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    color: darkorange;
+  }
+
+  #dich_vu .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+  }
+  #dich_vu .desc > h2 {
+    font-size: 38px;
+    padding-bottom: 15px;
+  }
+}
+
+/* <--------------------- Phone ---------------------> */
+@media (max-width: 28.75em) {
+  /* Welcome */
+  .dich_vu {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(https://images-ext-1.discordapp.net/external/-YH98258ybWeYiU0_K9x-ADmta3mVh-ZmWSxibIAXfs/https/www.apple.com/v/iphone/home/bd/images/overview/retail/why_apple__el2f318k348y_large.jpg?width=927&height=376);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    font-size: 14px;
+    color: white;
+    margin-top: 20vh;
+  }
+
+  #dich_vu .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    color: darkorange;
+  }
+
+  #dich_vu .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+  }
+  #dich_vu .desc > h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  /* End of Welcome */
+  /* -------------- */
+  /* Contact */
+  .contact-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 100%;
-    height: 100vh;
-    background-color: #000;
-    background: linear-gradient(to left, #ff416c, #ff4b2b);
-    font-size: 80px;
+    height: 40vh;
+    padding: 0 2rem;
+    background: #303841;
     color: white;
   }
-  .welcome-section > p {
-    font-size: 50px;
-    font-weight: 0;
-    font-style: italic;
-    color: #414345;
+
+  .contact-section-header > h2 {
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
   }
-  h1 {
-    font-family: "Open Sans", sans-serif;
-  } */
-  
+  .contact-section-header > p {
+    margin-top: 0.2rem;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .contact-details {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #1f1f1f;
+    color: white;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .contact-details:hover {
+    transform: translateY(-8px);
+  }
+  /* End of Contact */
+}

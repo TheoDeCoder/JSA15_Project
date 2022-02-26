@@ -1,78 +1,125 @@
 h2 {
-    font-size: 45px;
-    color: white;
-    font-family: "Ubuntu", sans-serif;
-  }
-  .projects-section {
-    text-align: center;
-    padding: 10rem 2rem;
-    background-image: linear-gradient(to right, #ec6f66, #f3a183);
-  }
-  
-  .projects-section-header {
-    max-width: 640px;
-    margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid #f0f0f0;
-  }
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 5rem;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-  }
+  font-size: 45px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background-image: linear-gradient(to right, #ec6f66, #f3a183);
+}
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background-image: linear-gradient(to right, #ec6f66, #f3a183);
+}
 
-  .project {
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-  }
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid #f0f0f0;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 5rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
 
-  .project:hover {
-    border: 8px solid #ff7f50;
-  }
-  
-  .project-image {
-    height: calc(100% - 6.8rem);
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .project-title {
-    font-size: 2rem;
-    padding: 2rem 0.5rem;
-    color: black;
-    text-align: center;
-  }
+.project {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
 
-  .project-title:hover {
-    color: #ff7f50;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: 2px;
-  }
+.project:hover {
+  border: 8px solid #ff7f50;
+}
 
-  .project-more {
-    display: inline-block;
-    font-size: 5rem;
-    margin-top: 50px;
-    font-family: "Ubuntu", sans-serif;
-    font-style: italic;
-  }
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
 
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  color: black;
+  text-align: center;
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid #f0f0f0;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 5rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  color: black;
+  text-align: center;
+}
+
+.project-title:hover {
+  color: #ff7f50;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.project-more {
+  display: inline-block;
+  font-size: 5rem;
+  margin-top: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+}
+
+.project-more a {
+  color: #fff;
+}
+
+.project-more a:hover {
+  color: #00ff00;
+  border-bottom: 0.2rem solid #00ff00;
+}
+/*<------------------------ Tablet ---------------------->*/
+
+@media (max-width: 61.25em) {
   .project-more a {
     color: #fff;
+    font-size: 50px;
   }
-
-  .project-more a:hover {
-    color: #00FF00;
-    border-bottom: 0.2rem solid #00FF00;;
-  }
-  
+}
