@@ -41,3 +41,94 @@
 .contact-details:hover {
   transform: translateY(-8px);
 }
+/*<------------------------ Tablet ---------------------->*/
+
+@media (max-width: 61.25em) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    padding: 0 2rem;
+    background: #303841;
+    color: white;
+  }
+
+  .contact-section-header > h2 {
+    font-size: 3rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .contact-section-header > p {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .contact-details {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #1f1f1f;
+    color: white;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .contact-details:hover {
+    transform: translateY(-8px);
+  }
+}
+/* <--------------------- Phone ---------------------> */
+@media (max-width: 28.75em) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    padding: 0 2rem;
+    background: #303841;
+    color: white;
+  }
+  .contact-section-header {
+    width: 80%;
+  }
+  .contact-section-header > h2 {
+    font-size: 2rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .contact-section-header > p {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+  }
+  .contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 28.75em;
+    margin-top: 1.2rem;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .contact-details {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px #1f1f1f;
+    color: white;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
