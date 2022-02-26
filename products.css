@@ -24,18 +24,11 @@ h2 {
     margin-bottom: 1rem;
   }
   .project {
-    background: #303841;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-  }
-  
-  .code {
-    color: #303841;
-    transition: color 0.3s ease-out;
-  }
-  
-  .project:hover .code {
-    color: #ff7f50;
   }
   
   .project-image {
@@ -47,12 +40,34 @@ h2 {
   .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
-    color: white;
+    color: black;
+    text-align: center;
+  }
+
+  .project-title:hover {
+    color: #ff7f50;
   }
   
   .btn {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 2px;
+  }
+
+  .project-more {
+    display: inline-block;
+    font-size: 5rem;
+    margin-top: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+  }
+
+  .project-more a {
+    color: #fff;
+  }
+
+  .project-more a:hover {
+    color: #00FF00;
+    border-bottom: 0.2rem solid #00FF00;;
   }
   
