@@ -5,8 +5,130 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.row {
-  max-width: 1000px;
-  width: 70%;
-  margin: 0 auto;
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 5px;
+}
+
+.name-container {
+  text-align: center;
+  padding: 5px;
+}
+
+.name-container h1:hover {
+  color: red;
+}
+
+.color-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.color-content {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.color-content:hover {
+  border-color: lightcoral;
+}
+
+.color-content a {
+  font-size: 25px;
+  color: black;
+}
+
+.color-content a:hover {
+  color: red;
+}
+
+.price-container {
+  text-align: center;
+  font-size: 35px;
+  padding: 5px;
+}
+
+.price-container p:hover {
+  color: red;
+}
+
+.capacity-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.capacity-a {
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 50px;
+}
+
+.capacity-a a {
+  color: black;
+}
+
+.capacity-a a:hover {
+  color: red;
+}
+
+.capacity-a:hover {
+  border: 3px solid pink;
+  border-radius: 3px;
+}
+
+.discount-container {
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 20px;
+}
+
+.discount-title {
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+
+.discount-title h2 {
+  text-align: center;
+}
+
+.discount-content-container {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.discount-content-1 {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.discount-content-2 {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+
+.discount-content-container label {
+  color: red;
+  text-transform: capitalize;
 }
