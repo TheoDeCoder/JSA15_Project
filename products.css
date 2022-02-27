@@ -39,6 +39,7 @@ h2 {
 
 .project:hover {
   border: 8px solid #ff7f50;
+  transition-duration: 0.2s;
 }
 
 .project-image {
