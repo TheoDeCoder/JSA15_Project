@@ -1,7 +1,7 @@
 const data = [
     {
       image_url:
-        "https://cdn.hoanghamobile.com/i/productlist/dsp/Uploads/2021/09/15/image-removebg-preview-18.png",
+        "https://cdn.discordapp.com/attachments/890907677042049054/947095365667135518/image-removebg-preview-15.png",
       name: "Apple iPhone 13 Pro Max - Chính hãng VN/A",
       item_id: "1305",
       url: "https://hoanghamobile.com/dien-thoai-di-dong/apple-iphone-13-pro-max-128gb-chinh-hang-vn-a?#ins_sr=eyJwcm9kdWN0SWQiOiIxMzA1In0=",

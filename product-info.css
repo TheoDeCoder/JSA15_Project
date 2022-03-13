@@ -212,13 +212,13 @@
     transition-duration: 0.4s;
   }
   
-  .price-container {
+  .p {
     text-align: center;
     font-size: 35px;
     padding: 5px;
   }
   
-  .price-container p:hover {
+  .p p:hover {
     color: red;
   }
   
