@@ -6,6 +6,105 @@
     text-decoration: none;
   }
   
+  /* nav-bar */
+  .nav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff4b2b;
+    margin-bottom: 10px;
+  }
+  
+  .nav-logo {
+    float: left;
+    background-image: url(https://cdn.discordapp.com/attachments/890907677042049054/946800332359475252/cellphones-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+  .nav-list {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .nav-list li {
+    display: inline-block;
+  }
+  
+  .nav-list li a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+  
+    transition: color 0.3s ease;
+    font-family: "Ubuntu", sans-serif;
+    border: 2px none;
+  }
+  
+  li a:hover {
+    background-image: linear-gradient(#c04848, #480048);
+  }
+  /*<------------------------ Tablet ---------------------->*/
+  
+  @media (max-width: 61.25em) {
+    .nav-list li {
+      display: inline-block;
+    }
+  
+    .nav-list li a {
+      display: block;
+      font-size: 15px;
+      padding: 20px 10px;
+    }
+  }
+  /* <--------------------- Phone ---------------------> */
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+    .nav-logo {
+      float: left;
+      background-image: url(https://cdn.discordapp.com/attachments/890907677042049054/946800332359475252/cellphones-logo.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 120px;
+      height: 30px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+    .nav-list {
+      margin: 0 1rem;
+    }
+  
+    .nav-list li {
+      display: inline-block;
+    }
+  
+    .nav-list a {
+      display: block;
+      font-size: 2.2rem;
+      padding: 2rem;
+    }
+  }
+  
+  
+  /* main-content */
   .container {
     margin-top: 100px;
     display: flex;
