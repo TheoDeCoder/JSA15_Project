@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="cart.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/890907677042049054/946803989171806248/Logo_ico1.png" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@700&display=swap"
       rel="stylesheet"
@@ -25,9 +26,7 @@
         <div class="nav-logo"></div>
         <ul class="nav-list">
           <li>
-            <a href="index.html"
-              ><i class="fa-solid fa-arrow-left-long"></i> Trở về trang chủ</a
-            >
+            <a href="index.html"><i class="fa-solid fa-arrow-left-long"></i> Trở về trang chủ</a>
           </li>
         </ul>
       </nav>
@@ -43,7 +42,15 @@
         </tr>
       </table>
     </div>
-    <div id="totalprice"></div>
+  
+    <div class="buy-btn-container">
+      <form action="">
+        <input type="button" value="Thanh toán" />
+      </form>
+      <p class="buy-btn-p">Bạn chưa thanh toán!</p>
+    </div>
+  </div>
+  
   </body>
   <div class="button" style="margin-top: 20px" ;>
     <button onclick="clearCart()" type="button">Dọn sạch giỏ hàng</button>

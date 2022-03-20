@@ -17,6 +17,17 @@ cart.forEach((item) => {
 table.innerHTML += `<tr class="totalprice"> 
     <td colspan="3"> Tổng tiền: </td> <td> ${totalprice} VND</td>
 </tr>`;
-function clearCart() {
-  localStorage.clear();
+
+
+const button = document.querySelector('input');
+const paragraph = document.querySelector('.buy-btn-p');
+
+button.addEventListener('click', updateButton);
+function updateButton() {
+  if (button.value === 'Thanh toán') {
+    alert('Thanh toán thành công')
+    button.value = 'Đã thanh toán!'
+    paragraph.textContent = 'Bạn đã thanh toán thành công'
+  }
 }
+
