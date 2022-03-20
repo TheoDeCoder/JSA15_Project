@@ -19,6 +19,7 @@ table.innerHTML += `<tr class="totalprice">
 </tr>`;
 
 
+
 const button = document.querySelector('input');
 const paragraph = document.querySelector('.buy-btn-p');
 
@@ -29,5 +30,6 @@ function updateButton() {
     button.value = 'Đã thanh toán!'
     paragraph.textContent = 'Bạn đã thanh toán thành công'
   }
+
 }
 
